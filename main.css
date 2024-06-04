@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+body{
+    background-color: rgb(203, 226, 230);
+    color: black;
+    margin: 0px;
+}
+
+svg{
+    width:  4%;
+    
+}
+
+.row{
+    margin: 0px;
+    padding: 0 !important;
+}
+
+section{
+    border: 2px rgb(163, 4, 4) solid;
+    border-radius: 10px;
+    margin: 0;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    border: 2px rgb(163, 4, 4) solid;
+}
+
+td{
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+    background-color: rgb(85, 193, 193);
+    
+    
+}
+
+th{
+    background-color: green;
+    color: aqua;
+    border: 2px rgb(163, 4, 4) solid;
+    text-align: center;
+    font-size: 18px;
+}
+
+.table a{
+    color: black;
+}
+
+.table a:hover{
+    text-decoration: none;
+    color: rgb(70, 70, 233);
+}
+
+p{
+    margin-left: 50px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+
+h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#header_part{
+    border: none;
+    margin: 0px;
+}
+
+marquee{
+    background-color: red;
+    
+}
+
+marquee a{
+    color: gold;
+}
+
+marquee a:hover{
+    color: wheat;
+    text-decoration: none;
+}
+
+#prime_heading{
+    text-align: left;
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+    margin: 0 !important
+}
+
+#main_heading{
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#slider{ overflow: hidden;}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    float: left;
+    width: 10%;
+    height: 600px;
+    
+}
+
+#slider figure #invite {
+    width: 20%;
+    
+}
+
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+#footer{
+    background-color: rgb(183, 183, 241);
+    margin-top: 15px;
+}
+
+#footer .footer{
+    width: 50%;
+    margin: auto;
+    border: none;
+}
+
+#footer .footer svg{
+    color: aqua;
+    margin: 10px;
+    margin-left: 90px;
+    
+}
+
+#srm_img{
+    width: 40%;
+    margin-left: 350px;
+}
+
+h2{
+    text-align: center;
+    font-size: 23px;
+}
+
+#mg{
+    width: 70%;
+    margin-left: 60px;
+    height: 200px;
+}
+
+#img_title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#ambedkar{
+    width: 70%;
+    margin-left: 60px;
+    height: 200px;
+}
+
+#nehru{
+    width: 70%;
+    margin-left: 60px;
+    height: 200px;
+}
