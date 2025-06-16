@@ -4,6 +4,10 @@ body{
     background-attachment: fixed;
 }
 
+h1{
+    color:red;
+}
+
 #main_sec{
     background-color: white;
     color: black;
